@@ -19,3 +19,13 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
+## Kaggle API Setup
+
+To download the dataset, you need to authenticate with your Kaggle API.
+
+1. Follow the instrunctions (https://www.kaggle.com/docs/api#getting-started-installation-&-authentication)
+2. Create a `.kaggle` directory in your home directory and add the `kaggle.json` file to it. For example:
+    - /Users/<your-username>/.kaggle (Mac/Linux)
+    - C:\Users\<your-username>\.kaggle (Windows)
+3. Add `kaggle.json` which you downloaded in step 1 to the `.kaggle` directory.
+
